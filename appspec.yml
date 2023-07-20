@@ -1,5 +1,5 @@
 version: 0.0
-os: linux
+os: ubuntu
 
 files:
   - source: /
@@ -8,8 +8,8 @@ files:
 permissions:
   - object: /
     pattern: "**"
-    owner: ec2-user
-    group: ec2-user
+    owner: ubuntu
+    group: ubuntu
 
 hooks:
 
